@@ -1,0 +1,87 @@
+.image-container {
+    background-image: url('https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2020-02/heart_hands_mybuckhannon.jpg?itok=V2VBwmUI');
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    margin: 20px 0;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+}
+header {
+    background-color: #31a5b5;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 30px
+}
+nav {
+    background-color: #004a99;
+    color: #fff;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #13315C;
+}
+@media screen and (max-width: 600px) {
+    nav ul li a {
+        padding: 8px 15px;
+    }
+    
+    nav {
+        margin-bottom: 20px; 
+}
+}
+
+.homehead {
+    text-align: center;
+    font-family: Garamond;
+}
+h2 {
+    background-color: #31a5b5;
+    padding: 10px; 
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+p {
+    line-height: 1.5;
+    margin: 15px;
+    font-size: 18px;
+}
+a {
+    color: #1E2953;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.charitiespg {
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+}
+.charity-profile {
+    font-size: 50px;
+}
+.charitypro {
+    margin: 15px;
+}
+
