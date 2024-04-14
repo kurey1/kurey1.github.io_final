@@ -64,14 +64,14 @@ function submitForm() {
     .then(response => {
         if (response.ok) {
             console.log('Email sent successfully');
-            // You can show a success message or redirect the user here
+        
         } else {
             console.error('Failed to send email');
-            // Handle error case here
+          
         }
     })
     .catch(error => {
         console.error('Error sending email:', error);
-        // Handle error case here
+        
     });
 }
